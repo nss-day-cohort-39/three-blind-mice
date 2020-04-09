@@ -1,4 +1,4 @@
-export const Employee = (employeeObject, computerObject, departmentObject, locationObject) => {
+export const Employee = (employeeObject, computerObject, departmentObject, locationObject, customerArray) => {
     return `
         <section class="employee">
             <h2>${employeeObject.firstName} ${employeeObject.lastName}</h2>
@@ -9,6 +9,13 @@ export const Employee = (employeeObject, computerObject, departmentObject, locat
             </div>
             <div class="employee__location">
                 Works in the ${locationObject.city} location
+            </div>
+            <div class="employee__customers">
+                <ul>
+                    ${
+                        customerArray.map(customer => `<li>${customer.business}</li>`).join("")
+                    }
+                </ul>
             </div>
         </section>
     `

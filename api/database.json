@@ -11,6 +11,51 @@
             "year": 2019
         }
     ],
+    "customers": [
+        {
+            "id": 1,
+            "business": "Stem Cells"
+        },
+        {
+            "id": 2,
+            "business": "Hate to Watch You Leaf, Love to Watch You Grow"
+        },
+        {
+            "id": 3,
+            "business": "Acne Inc"
+        },
+        {
+            "id": 4,
+            "business": "Widgets Congolmerated"
+        }
+    ],
+    "customerEmployees": [
+        {
+            "id": 1,
+            "employeeId": 1,
+            "customerId": 2
+        },
+        {
+            "id": 2,
+            "employeeId": 1,
+            "customerId": 3
+        },
+        {
+            "id": 3,
+            "employeeId": 2,
+            "customerId": 4
+        },
+        {
+            "id": 4,
+            "employeeId": 2,
+            "customerId": 1
+        },
+        {
+            "id": 5,
+            "employeeId": 3,
+            "customerId": 2
+        }
+    ],
     "employees": [
         {
             "id": 1,
